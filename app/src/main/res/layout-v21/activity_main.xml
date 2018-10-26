@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnGoCalendar1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="235dp"
+        android:text="Choose Return Date" />
+
+    <Button
+        android:id="@+id/btnGoCalendar2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBaseline="@+id/btnGoCalendar1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Choose Pickup Date" />
+
+    <TextView
+        android:id="@+id/date1"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_above="@+id/date2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginBottom="-48dp"
+        android:hint="Date1"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/date2"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="157dp"
+        android:hint="Date2"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/carrr"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="217dp"
+        android:layout_marginEnd="-81dp"
+        android:layout_toStartOf="@+id/btnGoCalendar1"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="New Reservation"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="#ffffff"
+        android:layout_marginRight="-81dp"
+        android:layout_toLeftOf="@+id/btnGoCalendar1" />
+
+    <Button
+        android:id="@+id/cont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     
+        android:layout_marginTop="550dp"
+        android:layout_marginBottom="10dp"
+
+        android:text="Continue.." />
+
+
+</RelativeLayout>

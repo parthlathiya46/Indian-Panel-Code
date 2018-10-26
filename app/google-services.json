@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "349785954930",
+    "firebase_url": "https://rentalapp-da973.firebaseio.com",
+    "project_id": "rentalapp-da973",
+    "storage_bucket": "rentalapp-da973.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349785954930:android:dc77fecdb9f606c2",
+        "android_client_info": {
+          "package_name": "com.example.admin.calendarview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349785954930-9ge6vt55a44snuqq6r175vjldrtd62uq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.calendarview",
+            "certificate_hash": "4fd3d8d532600bc8486701b620327c23787f07b4"
+          }
+        },
+        {
+          "client_id": "349785954930-o7cnt7dhagp9lrh2b7kff9jnffca8mo1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4gfUjmLlVEAgpv_TCeAg8lnmiXsX-ENg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349785954930-o7cnt7dhagp9lrh2b7kff9jnffca8mo1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
